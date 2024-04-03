@@ -1,11 +1,15 @@
 package com.javalearning;
 
-import com.javalearning.main.Beans;
-import com.javalearning.main.Wiring;
+import com.javalearning.main.Aop;
+
+// import com.javalearning.main.Beans;
+// import com.javalearning.main.Wiring;
 
 public class Main {
   public static void main(String[] args) {
-    Beans.main(args);
-    Wiring.main(args);
+    // Beans.main(args);
+    // Wiring.main(args);
+    // Aop.main(args);
+    Aop.main(args);
   }
 }
