@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Primary;
 import com.javalearning.example.beans.Vehicle;
 
 @Configuration
-@ComponentScan("com.javalearning.example.beans")
-public class ProjectConfiguration {
+@ComponentScan("com.javalearning.example.beans.components")
+public class BeansConfiguration {
   @Bean
   @Primary
   Vehicle vehicle() {
